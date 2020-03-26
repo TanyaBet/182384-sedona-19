@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Татьяна Бельтюкова](https://up.htmlacademy.ru/adaptive/19/user/182384).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгения Фомина](https://htmlacademy.ru/profile/iliana)
 
 ---
 
