@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Academy: Седона Форма отзыва</title>
+</head>
+<body>
+	<header class="main-header">
+    <a href="index.html" class="main-header__logo">
+    	<img src="#" class="main-header__logo logo" alt="Логотип Седоны" width="" height="">
+    </a>
+    <nav class="main-nav">
+    	<button class="main-nav__toggle" type="button">Открыть меню</button>
+    	<ul class="main-nav__list site-list">
+    		<li class="site-list__item"><a href="index.html">Главная</a></li>
+    		<li class="site-list__item"><a href="photo.html">Фото и видео</a></li>
+    		<li class="site-list__item site-list__item--active"><a>Форма отзыва</a></li>
+    	 	<li class="site-list__item"><a href="https://htmlacademy.ru/">Html Academy</a></li>
+    	</ul>
+    </nav>
+  </header>
+  <main class="main-content">
+  	<div class="introduction">
+    	 <h1 class="introduction__title">Оставьте свой отзыв</h1>
+    	 <p class="introduction__promo">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях.</p>
+    </div>
+    <form cass="feedback-form" action="#" method="post">
+      <div class="feedback-form__group">
+      	<h2 class="feedback-form__title">Представьтесь:</h2>
+      	<label for="name">Имя:</label>
+      	<input type="text" name="personality" id="name" value="Петр">
+      	<label for="surname">Фамилия:</label>
+      	<input type="text" name="personality" id="surname" value="Иванов">
+      	<label for="middle-name">Отчество:</label>
+      	<input type="text" name="personality" id="middle-name" value="Александрович">
+      </div>
+    	<div class="feedback-form__group">
+    		<h2 class="feedback-form__title">Контактная информация:</h2>
+    		<label for="phone-number">Контактный телефон*:</label>
+      	<input type="text" name="contact-info" id="phone-number" value="Введите телефон">
+      	<label for="e-mail">Электронная почта*:</label>
+      	<input type="text" name="contact-info" id="e-mail" value="Введите e-mail">
+    	</div>
+    	<div class="feedback-form__group">
+    		<h2 class="feedback-form__title">Ваше общее впечатление:</h2>
+    		<label>
+    			<input type="checkbox" name="impression" checked> Скорее положительное
+    		</label>
+    		<label>
+    			<input type="checkbox" name="impression"> Скорее отрицательное
+    		</label>
+    		<label>
+    			<input type="checkbox" name="impression"> Затрудняюсь ответить
+    		</label>
+    	</div>
+    	<div class="feedback-form__group">
+    		<h2 class="feedback-form__title">Посещенные достопримечательности:</h2>
+    		<label>
+    			<input type="checkbox" name="places" checked> Мост Дьявола
+    		</label>
+    		<label>
+    			<input type="checkbox" name="places" checked> Гора-Колокол
+    		</label>
+    		<label>
+    			<input type="checkbox" name="places" checked> Слайд-парк
+    		</label>
+    		<label>
+    			<input type="checkbox" name="places"> Красные скалы
+    		</label>
+    	</div>
+    	<div class="feedback-form__group">
+    		<h2 class="feedback-form__title">Опишите свои эмоции:</h2>
+    		<textarea name="describe" cols="30" rows="5" value="Опишите подробно все свои восторги"></textarea>
+    	</div>
+    	<input class="feedback-form__btn" type="submit" value="Отправить отзыв">
+    </form>
+  </main>
+  <footer class="main-footer"> 
+     <div class="hashtag">#VisitSedona</div>
+     <section class="social">
+    	 <a href="#" class="social__twitter"></a>
+    	 <a href="#" class="social__facebook"></a>
+    	 <a href="#" class="social__youtube"></a>
+     </section>
+     <section class="copyright">
+    	 <span>Разработано</span>
+     </section>
+   </footer>
+</body>
+</html>
