@@ -2,18 +2,20 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title> 
+    <title>HTML Academy: Седона Главная</title> 
   </head>
   <body>
     <header class="main-header">
-      <img src="#" class="main-header__logo logo" alt="Логотип Седоны" width="" height="">
-      <button class="main-header__menu-btn menu-btn"></button>
-      <nav class="main-header__navigation">
-      	<ul class="navigation-list">
-    		  <li class="navigation-list__item"><span>Главная</span></li>
-    	  	<li class="navigation-list__item"><a href="photo.html">Фото и видео</a></li>
-    	  	<li class="navigation-list__item"><a href="form.html">Форма отзыва</a></li>
-    	   	<li class="navigation-list__item"><a href="https://htmlacademy.ru/">Html Academy</a></li>
+      <a class="main-header__logo">
+      	<img src="#" class="main-header__logo logo" alt="Логотип Седоны" width="" height="">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+      	<ul class="main-nav__list site-list">
+    		  <li class="site-list__item site-list__item--active"><a>Главная</a></li>
+    	  	<li class="site-list__item"><a href="photo.html">Фото и видео</a></li>
+    	  	<li class="site-list__item"><a href="form.html">Форма отзыва</a></li>
+    	   	<li class="site-list__item"><a href="https://htmlacademy.ru/">Html Academy</a></li>
     	  </ul>
       </nav>
     </header>
@@ -66,10 +68,12 @@
 				<p class="feature__promo">Большинство едет в Гранд Каньон и толпится там</p>
 		  </div>
     </main>
-    <div class="banner-supfooter">
-    	<!--Форма и карта-->
-    </div>
     <footer class="main-footer">
+    	<div class="footer-top">
+    		<b class="footer-top__title">Заинтересовались?</b>
+    		<p class="footer-top__offer">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    		<a href="#" class="footer-top__btn">Найти гостиницу</a>
+    	</div>
     	<div class="hashtag">#VisitSedona</div>
     	<section class="social">
     		<a href="#" class="social__twitter"></a>
